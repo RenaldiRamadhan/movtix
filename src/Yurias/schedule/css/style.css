@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  background-color: rgb(23, 23, 24);
+  background-image: url(../img/background-image1.jpg);
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+header {
+  width: 60%;
+  margin: 50px auto;
+  padding: 50px;
+  border-radius: 20px;
+  background-color: rgba(36, 35, 41, 0.3);
+  display: flex;
+  color: #fff;
+}
+header img {
+  width: 300px;
+  margin-right: 30px;
+  border-radius: 10%;
+}
+header .title {
+  width: 50%;
+}
+header .title h1 {
+  margin-bottom: 20px;
+}
+header .title .jam {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+header .title .jam img {
+  width: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+header .title .button {
+  width: 100px;
+  padding: 5px;
+  color: #fff;
+  background-color: #000;
+  margin-right: 5px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+header .title .button:hover {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+header .title p {
+  font-size: 1;
+  line-height: 1.2;
+  text-align: justify;
+}
+
+main {
+  width: 60%;
+  margin: 10px auto;
+  padding: 50px;
+  border-radius: 20px;
+  background-color: rgba(36, 35, 41, 0.3);
+  color: #fff;
+  text-transform: uppercase;
+}
+main h2 {
+  margin-bottom: 10px;
+}
+main .jadwal {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+main .jadwal h3 {
+  padding: 0 20px;
+  margin-bottom: 20px;
+  text-transform: none;
+}
+main .button-main {
+  width: 100px;
+  padding: 7px;
+  border-radius: 20px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+main .button-main:hover {
+  background-color: lightskyblue;
+  color: #fff;
+  border: 1px solid salmon;
+}/*# sourceMappingURL=style.css.map */

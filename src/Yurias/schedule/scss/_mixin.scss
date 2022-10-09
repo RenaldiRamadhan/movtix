@@ -1,0 +1,4 @@
+@mixin container($ukuran) {
+  width: 60%;
+  margin: $ukuran auto;
+}
