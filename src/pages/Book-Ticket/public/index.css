@@ -1,0 +1,784 @@
+body
+{
+    background-image: url("/Assets/Background Book Ticket.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.icon-web
+{
+    position: relative;
+    width: 50px;
+    top: 16px;
+    cursor: pointer;
+}
+
+.title-icon
+{
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-weight: bold;
+    position: relative;
+    bottom: 37px;
+    left: 50px;
+    cursor: pointer;
+}
+
+.content-1
+{
+    color: #F5AD6B;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    bottom: 74px;
+    left: 900px;
+    cursor: pointer;
+}
+
+.content-2, .content-3
+{
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+}
+
+.content-2
+{
+    bottom: 108px;
+    left: 1030px;
+    cursor: pointer;
+}
+
+.content-3
+{
+    bottom: 142px;
+    left: 1142px;
+    cursor: pointer; 
+}
+
+.line-indicate
+{
+    width: 90px;
+    height: 2.2px;
+    position: relative;
+    bottom: 164px;
+    left: 900px;
+}
+
+.movie-poster
+{
+    position: relative;
+    width: 156px;
+    height: 220px;
+    left: 44px;
+    top: 100px;
+    border: 4px solid #DCDCDC;
+    border-radius: 8px;
+}
+
+.title-movie, .year-movie
+{
+    color: #E7E7E7;
+    font-family: 'Poppins';
+}
+
+.title-movie
+{
+    position: relative;
+    bottom: 86px;
+    left: 240px;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.year-movie
+{
+    position: relative;
+    font-weight: 500;
+    font-size: 18px;
+    bottom: 182px;
+    left: 366px;
+}
+
+.title-rate1, .title-rate2, .title-rate3
+{
+    color:#FD9C43;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+.title-rate1
+{
+    position: relative;
+    bottom: 204px;
+    left: 700px;
+}
+
+.title-rate2
+{
+    position: relative;
+    bottom: 280px;
+    left: 890px;
+}
+
+.title-rate3
+{
+    position: relative;
+    bottom: 357px;
+    left: 984px;
+}
+
+.review-rate1, .review-rate2, .review-rate3
+{
+    font-family: 'Poppins';
+    color: #E7E7E7;
+    font-size: 14px;
+}
+
+.review-rate1
+{
+    position: relative;
+    bottom: 216px;
+    left: 700px;
+}
+
+.review-rate2
+{
+    position: relative;
+    bottom: 291px;
+    left: 890px;
+}
+
+.review-rate3
+{
+    position: relative;
+    bottom: 368px;
+    left: 983px;
+}
+
+.age-watch
+{
+    position: relative;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #FD9C43;
+    display: inline;
+    border-radius: 6px;
+    padding: 6px;
+    bottom: 420px;
+    left: 1130px;
+    font-family: 'Poppins';
+}
+
+.title-date
+{
+    font-family: 'Poppins';
+    color: #999999;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    bottom: 386px;
+    left: 240px
+}
+
+.movie-date
+{
+    font-family: 'Poppins';
+    color: #E7E7E7;
+    font-weight: 600;
+    position: relative;
+    font-size: 18px;
+    bottom: 392px;
+    left: 240px;
+}
+
+.amount-ticket
+{
+    font-family: 'Poppins';
+    color: #FD9C43;
+    font-weight: 600;
+    font-size: 13px;
+    position: relative;
+    bottom: 392px;
+    left: 240px;
+}
+
+.ticket-button
+{
+    color: #E7E7E7;
+    font-family: 'Poppins';
+    font-weight: 600;
+    display: inline;
+    background-color: #FD9C43;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    border-radius: 30px;
+    position: relative;
+    bottom: 480px;
+    left: 760px;
+    cursor: pointer;
+}
+
+.trailer-button
+{
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #E7E7E7;
+    display: inline;
+    background-color: #242424;
+    border: 1px solid #E7E7E7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    position: relative;
+    bottom: 480px;
+    left: 790px;
+    cursor: pointer;
+}
+
+.synopsis-text
+{
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-weight: 500;
+    position: relative;
+    bottom: 388px;
+    left: 40px;
+    font-size: 16px;
+    margin-right: 60px;
+}
+
+.description-text
+{
+    font-family: 'Poppins';
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 300;
+    position: relative;
+    bottom: 394px;
+    left: 40px;
+    margin-right: 120px;
+    text-align: justify;
+}
+
+.title-photos
+{
+    font-family: 'Poppins';
+    color: #E7E7E7;
+    font-weight: 700;
+    position: relative;
+    bottom: 360px;
+    left: 42px;
+}
+
+.photo1, .photo2, .photo3, .photo4
+{
+    width: 272px;
+    height: 168px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 344px;
+    cursor: pointer;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 14%);
+}
+
+.photo1
+{
+    left: 40px;
+}
+
+.photo2
+{
+    left: 60px;
+}
+
+.photo3
+{
+    left: 80px;
+}
+
+.photo4
+{
+    left: 100px;
+}
+
+.description-movie
+{
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #E7E7E7;
+    position: relative;
+    bottom: 300px;
+    left: 42px;
+}
+
+.title-desc1, .title-desc2, .title-desc3, .title-desc4, 
+.title-desc5, .title-desc6, .title-desc7
+{
+    font-family: 'Poppins';
+    color: #999999;
+    font-weight: 600;
+    font-size: 14px;
+} 
+
+.desc1, .desc2, .desc3, .desc4, .desc5, .desc6, .desc7
+{
+    font-family: 'Poppins';
+    color: rgba(231, 231, 231, 86%);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.title-desc1
+{
+    position: relative;
+    bottom: 296px;
+    left: 40px;
+}
+
+.desc1
+{
+    position: relative;
+    bottom: 330px;
+    left: 104px;
+}
+
+.title-desc2
+{
+    position: relative;
+    bottom: 340px;
+    left: 40px;
+}
+
+.desc2
+{
+    position: relative;
+    bottom: 375px;
+    left: 120px;
+}
+
+.title-desc3
+{
+    position: relative;
+    bottom: 384px;
+    left: 40px;
+}
+
+.desc3
+{
+    position: relative;
+    bottom: 418px;
+    left: 110px;
+}
+
+.title-desc4
+{
+    position: relative;
+    bottom: 428px;
+    left: 40px;
+}
+
+.desc4
+{
+    position: relative;
+    bottom: 462px;
+    left: 96px;
+}
+
+.title-desc5
+{
+    position: relative;
+    bottom: 472px;
+    left: 40px;
+}
+
+.desc5
+{
+    position: relative;
+    bottom: 507px;
+    left: 110px;
+}
+
+.title-desc6
+{
+    position: relative;
+    bottom: 516px;
+    left: 40px;
+}
+
+.desc6
+{
+    position: relative;
+    bottom: 550px;
+    left: 125px
+}
+
+.title-desc7
+{
+    position: relative;
+    bottom: 560px;
+    left: 40px;
+}
+
+.desc7
+{
+    position: relative;
+    bottom: 594px;
+    left: 108px
+}
+
+.movie-reviews
+{
+    font-family: 'Poppins';
+}
+
+.review-title
+{
+    color: #E7E7E7;
+    font-weight: 670;
+    font-size: 20px;
+    position: relative;
+    bottom: 816px;
+    left: 600px;
+}
+
+.comment-review
+{
+    color: #E7E7E7;
+    font-size: 14px;
+    font-weight: 380;
+    position: relative;
+    bottom: 824px;
+    left: 600px;
+    margin-right: 672px;
+    text-align: justify;
+}
+
+.photo-reviewer
+{
+    width: 62px;
+    position: relative;
+    bottom: 804px;
+    left: 600px;
+    border-radius: 12px;
+
+}
+
+.people-review
+{
+    color: #e7e7e7;
+    font-weight: 580;
+    font-size: 13px;
+    position: relative;
+    bottom: 880px;
+    left: 680px;
+}
+
+.agency-review
+{
+    color: #B8B7B7;
+    font-size: 11px;
+    font-weight: 480;
+    position: relative;
+    bottom: 888px;
+    left: 680px;
+}
+
+.source-review
+{
+    color: #FD9C43;
+    font-weight: 540;
+    font-size: 14px;
+    position: relative;
+    bottom: 944px;
+    left: 1050px
+}
+
+.rate-review
+{
+    color: #E7E7E7;
+    position: relative;
+    bottom: 956px;
+    left: 1050px;
+    font-size: 13.6px;
+    font-weight: 480;
+}
+
+.review-card
+{
+    height: 250px;
+    width: 630px;
+    background-color: rgba(76, 76, 76, 30%);
+    position: relative;
+    bottom: 1182px;
+    left: 580px;
+    border-radius: 20px;
+}
+
+.title-dates
+{
+    font-family: 'Poppins';
+    color: #E7E7E7;
+    position: relative;
+    font-weight: 700;
+    bottom: 1160px;
+    left: 42px;
+}
+
+.day-movie1
+{
+    font-family: 'Poppins';
+    font-size: 13px;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 1130px;
+    left: 86px;
+}
+
+.date-movie1
+{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 530;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 1140px;
+    left: 84px;
+}
+
+.date-card
+{
+    width: 140px;
+    height: 80px;
+    background-color: rgba(76, 76, 76, 30%);
+    position: relative;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.date-card-now
+{
+    width: 140px;
+    height: 80px;
+    background-color: rgba(253, 156, 67, 80%);
+    position: relative;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.day1
+{
+    bottom: 1220px;
+    left: 40px;
+}
+
+.day2
+{
+    bottom: 1388px;
+    left: 210px;
+}
+
+.day3
+{
+    
+    bottom: 1556px;
+    left: 380px;
+}
+
+.day4
+{
+    
+    bottom: 1724px;
+    left: 550px;
+}
+
+.day5
+{
+    
+    bottom: 1892px;
+    left: 720px;
+}
+
+.day6
+{
+    
+    bottom: 1972px;
+    left: 890px;
+}
+
+.day7
+{
+    
+    bottom: 2214px;
+    left: 1060px;
+}
+
+.day-movie2
+{
+    font-family: 'Poppins';
+    font-size: 13px;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 1298px;
+    left: 252px;
+}
+
+.date-movie2
+{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 530;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 1308px;
+    left: 252px;
+}
+
+.day-movie3
+{
+    font-family: 'Poppins';
+    font-size: 13px;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 1466px;
+    left: 412px;
+}
+
+.date-movie3
+{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 530;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 1476px;
+    left: 424px;
+}
+
+.day-movie4
+{
+    font-family: 'Poppins';
+    font-size: 13px;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 1634px;
+    left: 592px;
+}
+
+.date-movie4
+{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 530;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 1644px;
+    left: 596px;
+}
+
+.day-movie5
+{
+    font-family: 'Poppins';
+    font-size: 13px;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 1801px;
+    left: 770px;
+}
+
+.date-movie5
+{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 530;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 1812px;
+    left: 764px;
+}
+
+.day-movie6
+{
+    font-family: 'Poppins';
+    font-size: 13px;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 2048px;
+    left: 932px;
+}
+
+.date-movie6
+{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 530;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 2060px;
+    left: 936px;
+}
+
+.day-movie7
+{
+    font-family: 'Poppins';
+    font-size: 13px;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 2122px;
+    left: 1106px;
+}
+
+.date-movie7
+{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 530;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 2132px;
+    left: 1105px;
+}
+
+.title-cast
+{
+    font-family: 'Poppins';
+    color: #E7E7E7;
+    position: relative;
+    font-weight: 700;
+    bottom: 2180px;
+    left: 42px;
+}
+
+.coming-soon
+{
+    width: 1000px;
+    height: 480px;
+    position: relative;
+    bottom: 2160px;
+    left: 140px;
+    border-radius: 20px;
+    box-shadow: 8px 10px rgb(0, 0, 0, 10%);
+}
+
+.style-links
+{
+    text-decoration: none;
+    color: #FD9C43;
+}
+
+.style-links1
+{
+    text-decoration: none;
+    color: #E7E7E7;
+}
